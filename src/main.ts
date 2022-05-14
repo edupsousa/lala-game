@@ -32,10 +32,10 @@ setInterval(() => {
 }, 5000);
 
 function preload(this: Phaser.Scene) {
-  this.load.image("sky", "/img/bg.png");
-  this.load.image("player", "/img/player.png");
-  this.load.image("red", "/img/red.png");
-  this.load.image("arrow", "/img/arrow.png");
+  this.load.image("sky", "img/bg.png");
+  this.load.image("player", "img/player.png");
+  this.load.image("red", "img/red.png");
+  this.load.image("arrow", "img/arrow.png");
 }
 
 function create(this: Phaser.Scene) {
