@@ -20,7 +20,7 @@ var config: Phaser.Types.Core.GameConfig = {
   },
 };
 
-let game = new Phaser.Game(config);
+new Phaser.Game(config);
 let player: Phaser.Types.Physics.Arcade.ImageWithDynamicBody;
 let cursors: Phaser.Types.Input.Keyboard.CursorKeys;
 let arrows: Phaser.Physics.Arcade.Group;
